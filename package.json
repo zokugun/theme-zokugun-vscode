@@ -1,0 +1,40 @@
+{
+    "name": "zokugun-theme",
+    "displayName": "Zokugun Theme",
+    "description": "Zokugun Theme for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "zokugun",
+    "homepage": "https://github.com/zokugun/theme-zokugun-vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zokugun/theme-zokugun-vscode.git"
+	},
+	"bugs": {
+        "url": "https://github.com/zokugun/theme-zokugun-vscode/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zokugun",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zokugun.json"
+            }
+        ]
+    },
+	"icon": "icon.png",
+	"keywords": [
+		"theme",
+		"zokugun"
+	],
+	"galleryBanner": {
+		"color": "#2d323b",
+		"theme": "dark"
+	}
+}
