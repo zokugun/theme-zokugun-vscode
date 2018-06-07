@@ -8,7 +8,7 @@
 		
 		// Base colors
 		// "focusBorder": "#a3a8ae",
-		"foreground": "#fff",
+		"foreground": "#ffffff",
 		"widget.shadow": "#000000",
 		"selection.background": "#a3a8ae",
 		"errorForeground": "#99ff99",
@@ -59,6 +59,8 @@
 		"list.hoverForeground": "#00ffff",
 		"list.inactiveSelectionBackground": "#373b41",
 		"list.inactiveSelectionForeground": "#00ffff",
+		"list.errorForeground": "#ff9900",
+		//"list.warningForeground": "#ff00ff",
 		
 		// Activity bar
 		"activityBar.background": "#000000",
@@ -71,7 +73,7 @@
 		// Side bar
 		"sideBar.background": "#161719",
 		// "sideBar.border": "#f00",
-		"sideBar.foreground": "#fff",
+		"sideBar.foreground": "#ffffffff",
 		"sideBarSectionHeader.background": "#1c1e20",
 		"sideBarSectionHeader.foreground": "#ffffff",
 		"sideBarTitle.foreground": "#00ffff",
@@ -266,9 +268,9 @@
 		"walkThrough.embeddedEditorBackground": "#000000",
 		
 		// Git colors
-		"gitDecoration.modifiedResourceForeground": "#9f9",
-		"gitDecoration.deletedResourceForeground": "#f90",
-		"gitDecoration.untrackedResourceForeground": "#fff",
+		"gitDecoration.modifiedResourceForeground": "#99ff99",
+		"gitDecoration.deletedResourceForeground": "#ff9900",
+		"gitDecoration.untrackedResourceForeground": "#ffffff",
 		"gitDecoration.ignoredResourceForeground": "#00cc99",
 		"gitDecoration.conflictingResourceForeground": "#f0c674",
 		
@@ -878,7 +880,85 @@
 			"settings": {
 				"foreground": "#99ff99"
 			}
-		}
+		},
 		// Markdown
+		{
+			"scope": [
+				"meta.paragraph.markdown markup.heading",
+				"markup.heading.markdown heading punctuation",
+				"markup.heading.markdown heading entity.name"
+			],
+			"settings": {
+				"foreground": "#ffff00"
+			}
+		},
+		{
+			"scope": [
+				"markup.italic.markdown",
+				"markup.italic.markdown punctuation"
+			],
+			"settings": {
+				"foreground": "#b4b7b4"
+			}
+		},
+		{
+			"scope": [
+				"markup.bold.markdown",
+				"markup.bold.markdown punctuation"
+			],
+			"settings": {
+				"foreground": "#b089ff"
+			}
+		},
+		{
+			"scope": [
+				"string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#00cc99"
+			}
+		},
+		{
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown"
+			],
+			"settings": {
+				"foreground": "#00ccff"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.reference.link.markdown"
+			],
+			"settings": {
+				"foreground": "#00ff00"
+			}
+		},
+		{
+			"scope": [
+				"beginning.punctuation.definition.list.markdown"
+			],
+			"settings": {
+				"foreground": "#ff9900"
+			}
+		},
+		{
+			"scope": [
+				"beginning.punctuation.definition.quote.markdown"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"markup.fenced_code.block.markdown"
+			],
+			"settings": {
+				"foreground": "#efc7cd"
+			}
+		}
 	]
 }
