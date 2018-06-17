@@ -51,7 +51,7 @@
 		// Lists and trees
 		"list.activeSelectionBackground": "#373b41",
 		"list.activeSelectionForeground": "#00ffff",
-		"list.dropBackground": "#ffffff",
+		"list.dropBackground": "#99999999",
 		"list.focusBackground": "#373b41",
 		"list.focusForeground": "#00ffff",
 		"list.highlightForeground": "#a3a8ae",
@@ -275,7 +275,7 @@
 		"gitDecoration.conflictingResourceForeground": "#f0c674",
 		
 		// Unknown
-		"descriptionForeground": "#9f9",
+		"descriptionForeground": "#99ff99",
 		"textBlockQuote.background": "#282a2e",
 		"textBlockQuote.border": "#191B1D",
 		"textCodeBlock.background": "#000000",
@@ -517,6 +517,15 @@
 			],
 			"settings": {
 				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": [
+				"meta.template.expression support.variable",
+				"string.interpolated support.variable"
+			],
+			"settings": {
+				"foreground": "#99ff99"
 			}
 		},
 		{
@@ -958,6 +967,16 @@
 			],
 			"settings": {
 				"foreground": "#efc7cd"
+			}
+		},
+		// PUG
+		{
+			"scope": [
+				"text.pug",
+				"meta.embedded.block.pug"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		}
 	]
