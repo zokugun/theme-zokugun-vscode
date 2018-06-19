@@ -1,3 +1,7 @@
+## v0.2.2
+- better Pug support
+- add nginx support
+
 ## v0.2.1
 - add Pug support
 

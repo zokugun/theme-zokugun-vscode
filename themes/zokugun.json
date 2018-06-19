@@ -969,7 +969,7 @@
 				"foreground": "#efc7cd"
 			}
 		},
-		// PUG
+		// Pug
 		{
 			"scope": [
 				"text.pug",
@@ -977,6 +977,65 @@
 			],
 			"settings": {
 				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.id.pug"
+			],
+			"settings": {
+				"foreground": "#ffcc33"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.tag.pug"
+			],
+			"settings": {
+				"foreground": "#99ff99"
+			}
+		},
+		{
+			"scope": [
+				"string.interpolated.pug",
+				"inline.pug entity.name.function.pug"
+			],
+			"settings": {
+				"foreground": "#b089ff"
+			}
+		},
+		// nginx
+		{
+			"scope": [
+				"source.nginx",
+				"source.nginx string.regexp"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": [
+				"source.nginx comment"
+			],
+			"settings": {
+				"foreground": "#dcac94"
+			}
+		},
+		{
+			"scope": [
+				"source.nginx constant.language"
+			],
+			"settings": {
+				"foreground": "#ccccff"
+			}
+		},
+		{
+			"scope": [
+				"source.nginx constant.character"
+			],
+			"settings": {
+				"foreground": "#00ffff"
 			}
 		}
 	]

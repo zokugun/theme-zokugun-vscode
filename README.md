@@ -8,6 +8,7 @@ Zokugun Theme for Visual Studio Code
 - JavaScript
 - JSON
 - Markdown
+- nginx
 - PHP
 - Pug
 - Sass
@@ -26,7 +27,6 @@ Zokugun Theme for Visual Studio Code
 - Bash
 - Go
 - make
-- nginx
 - Python
 - SQL
 - TypeScript
