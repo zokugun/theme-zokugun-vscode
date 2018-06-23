@@ -1,3 +1,6 @@
+## v0.2.3
+- support comments in Pug
+
 ## v0.2.2
 - better Pug support
 - add nginx support

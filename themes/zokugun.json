@@ -1004,6 +1004,22 @@
 				"foreground": "#b089ff"
 			}
 		},
+		{
+			"scope": [
+				"string.comment.buffered.block.pug"
+			],
+			"settings": {
+				"foreground": "#ff9900"
+			}
+		},
+		{
+			"scope": [
+				"comment.unbuffered.block.pug"
+			],
+			"settings": {
+				"foreground": "#dcac94"
+			}
+		},
 		// nginx
 		{
 			"scope": [
