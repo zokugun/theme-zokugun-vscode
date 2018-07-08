@@ -1053,6 +1053,60 @@
 			"settings": {
 				"foreground": "#00ffff"
 			}
+		},
+		// bash
+		{
+			"scope": [
+				"source.shell comment.line",
+				"source.shell punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#ff9900"
+			}
+		},
+		{
+			"scope": [
+				"source.shell comment.line.number-sign.shebang",
+				"source.shell punctuation.definition.comment.shebang"
+			],
+			"settings": {
+				"foreground": "#dcac94"
+			}
+		},
+		{
+			"scope": [
+				"source.shell variable",
+				"source.shell variable punctuation.definition.variable"
+			],
+			"settings": {
+				"foreground": "#00cc99"
+			}
+		},
+		{
+			"scope": [
+				"source.shell variable.other.bracket"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		// makefile
+		{
+			"scope": [
+				"source.makefile comment.line",
+				"source.makefile punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#ff9900"
+			}
+		},
+		{
+			"scope": [
+				"source.makefile string.interpolated meta.scope"
+			],
+			"settings": {
+				"foreground": "#99ff99"
+			}
 		}
 	]
 }

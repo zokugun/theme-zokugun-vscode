@@ -1,3 +1,7 @@
+## v0.2.4
+- add Bash support
+- add Makefile support
+
 ## v0.2.3
 - support comments in Pug
 

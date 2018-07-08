@@ -3,10 +3,12 @@ Zokugun Theme for Visual Studio Code
 
 ## Supported Languages
 
+- Bash
 - CSS
 - HTML
 - JavaScript
 - JSON
+- Makefile
 - Markdown
 - nginx
 - PHP
@@ -24,9 +26,7 @@ Zokugun Theme for Visual Studio Code
 
 ## Languages To Support
 
-- Bash
 - Go
-- make
 - Python
 - SQL
 - TypeScript
