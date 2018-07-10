@@ -1,3 +1,8 @@
+## v0.2.5
+- add launch config for debugging
+- add TypeScript support
+- add YAML support
+
 ## v0.2.4
 - add Bash support
 - add Makefile support

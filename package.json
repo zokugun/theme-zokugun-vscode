@@ -12,6 +12,10 @@
 	"bugs": {
         "url": "https://github.com/zokugun/theme-zokugun-vscode/issues"
     },
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
     "license": "MIT",
     "engines": {
         "vscode": "^1.23.0"
@@ -34,7 +38,7 @@
 		"zokugun"
 	],
 	"galleryBanner": {
-		"color": "#2d323b",
+		"color": "#1c1e20",
 		"theme": "dark"
 	}
 }

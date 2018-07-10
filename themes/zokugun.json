@@ -1,7 +1,7 @@
 {
 	"name": "Zokugun",
 	"type": "dark",
-	"colors": {
+	"colors": { // {{{
 		// Contrast colors
 		// "contrastActiveBorder": "#a3a8ae",
 		// "contrastBorder": "#f00",
@@ -284,6 +284,7 @@
 		"textPreformat.foreground": "#00ccff",
 		"textSeparator.foreground": "#f0f"
 	},
+	// }}}
 	"tokenColors": [
 		{
 			"settings": {
@@ -469,6 +470,8 @@
 		{
 			"scope": [
 				"entity.name.type.class",
+				"entity.name.type.enum",
+				"entity.name.type.interface",
 				"entity.name.type.module",
 				"entity.other.inherited-class"
 			],
@@ -568,11 +571,30 @@
 				"foreground": "#99ff99"
 			}
 		},
-		// JS
+		{
+			"scope": [
+				"entity.name.type",
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#e5a3ad"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.alias"
+			],
+			"settings": {
+				"foreground": "#99ff99"
+			}
+		},
+		// {{{ JavsScript & TypeScript
 		{
 			"scope": [
 				"keyword.control.as.js",
-				"keyword.operator.new.js"
+				"keyword.control.as.ts",
+				"keyword.operator.new.js",
+				"keyword.operator.new.ts"
 			],
 			"settings": {
 				"foreground": "#ffff00"
@@ -581,8 +603,11 @@
 		{
 			"scope": [
 				"keyword.control.import.js",
+				"keyword.control.import.ts",
 				"keyword.control.from.js",
-				"keyword.control.export.js"
+				"keyword.control.from.ts",
+				"keyword.control.export.js",
+				"keyword.control.export.ts"
 			],
 			"settings": {
 				"foreground": "#00cc99"
@@ -591,13 +616,15 @@
 		{
 			"scope": [
 				"support.constant.math.js",
+				"support.constant.math.ts",
 				"variable.language"
 			],
 			"settings": {
 				"foreground": "#b089ff"
 			}
 		},
-		// JSDOC
+		// }}}
+		// {{{ JSDOC
 		{
 			"scope": [
 				"comment.block.documentation punctuation.definition",
@@ -620,7 +647,8 @@
 				"foreground": "#ff9900"
 			}
 		},
-		//JSON
+		// }}}
+		// {{{ JSON
 		{
 			"scope": [
 				"meta.structure.dictionary support.type.property-name",
@@ -638,7 +666,8 @@
 				"foreground": "#00ffff"
 			}
 		},
-		// HTML
+		// }}}
+		// {{{ HTML
 		{
 			"scope": [
 				"meta.tag"
@@ -698,7 +727,8 @@
 				"foreground": "#dadada"
 			}
 		},
-		// JSX
+		// }}}
+		// {{{ JSX
 		{
 			"scope": [
 				"meta.jsx.children"
@@ -717,7 +747,8 @@
 				"fontStyle": ""
 			}
 		},
-		// CSS
+		// }}}
+		// {{{ CSS
 		{
 			"scope": [
 				"source.css",
@@ -806,7 +837,8 @@
 				"foreground": "#99ff99"
 			}
 		},
-		// SASS
+		// }}}
+		// {{{ SASS
 		{
 			"scope": [
 				"meta.at-rule entity.name.function"
@@ -823,7 +855,8 @@
 				"foreground": "#99ff99"
 			}
 		},
-		// PHP
+		// }}}
+		// {{{ PHP
 		{
 			"scope": [
 				"punctuation.section.embedded.begin.php",
@@ -890,7 +923,8 @@
 				"foreground": "#99ff99"
 			}
 		},
-		// Markdown
+		// }}}
+		// {{{ Markdown
 		{
 			"scope": [
 				"meta.paragraph.markdown markup.heading",
@@ -969,7 +1003,8 @@
 				"foreground": "#efc7cd"
 			}
 		},
-		// Pug
+		// }}}
+		// {{{ Pug
 		{
 			"scope": [
 				"text.pug",
@@ -1020,7 +1055,8 @@
 				"foreground": "#dcac94"
 			}
 		},
-		// nginx
+		// }}}
+		// {{{ nginx
 		{
 			"scope": [
 				"source.nginx",
@@ -1054,7 +1090,8 @@
 				"foreground": "#00ffff"
 			}
 		},
-		// bash
+		// }}}
+		// {{{ bash
 		{
 			"scope": [
 				"source.shell comment.line",
@@ -1090,7 +1127,8 @@
 				"foreground": "#ffffff"
 			}
 		},
-		// makefile
+		// }}}
+		// {{{ makefile
 		{
 			"scope": [
 				"source.makefile comment.line",
@@ -1107,6 +1145,35 @@
 			"settings": {
 				"foreground": "#99ff99"
 			}
+		},
+		// }}}
+		// {{{ YAML
+		{
+			"scope": [
+				"source.yaml comment.line",
+				"source.yaml comment.line punctuation.definition.comment",
+				"source.yaml entity.other.document.begin"
+			],
+			"settings": {
+				"foreground": "#ff9900"
+			}
+		},
+		{
+			"scope": [
+				"source.yaml entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#ccccff"
+			}
+		},
+		{
+			"scope": [
+				"source.yaml punctuation.definition.block.sequence.item"
+			],
+			"settings": {
+				"foreground": "#ffff00"
+			}
 		}
+		// }}}
 	]
 }

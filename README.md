@@ -14,6 +14,8 @@ Zokugun Theme for Visual Studio Code
 - PHP
 - Pug
 - Sass
+- TypeScript
+- YAML
 
 ## Screenshots
 
@@ -29,7 +31,7 @@ Zokugun Theme for Visual Studio Code
 - Go
 - Python
 - SQL
-- TypeScript
-- YAML
+
+Don't hesiste to [create an issue](https://github.com/zokugun/theme-zokugun-vscode/issues) if you want another language :)
 
 **Enjoy!**
