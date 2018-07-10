@@ -1173,7 +1173,51 @@
 			"settings": {
 				"foreground": "#ffff00"
 			}
-		}
+		},
+		// }}}
+		// {{{ Go
+		{
+			"scope": [
+				"source.go keyword",
+				"source.go keyword.type"
+			],
+			"settings": {
+				"foreground": "#ffff00"
+			}
+		},
+		{
+			"scope": [
+				"source.go entity.name.import"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": [
+				"source.go entity.name.package",
+				"source.go entity.name.type"
+			],
+			"settings": {
+				"foreground": "#99ff99"
+			}
+		},
+		{
+			"scope": [
+				"source.go keyword.import"
+			],
+			"settings": {
+				"foreground": "#00cc99"
+			}
+		},
+		{
+			"scope": [
+				"source.go storage.type"
+			],
+			"settings": {
+				"foreground": "#e5a3ad"
+			}
+		},
 		// }}}
 	]
 }

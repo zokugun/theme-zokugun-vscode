@@ -1,3 +1,7 @@
+## v0.2.6
+- add Go support
+- add Python support
+
 ## v0.2.5
 - add launch config for debugging
 - add TypeScript support
