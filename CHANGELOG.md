@@ -1,3 +1,6 @@
+## v0.2.7
+- fixing scrollbar & debugging statusbar
+
 ## v0.2.6
 - add Go support
 - add Python support

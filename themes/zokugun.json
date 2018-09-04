@@ -38,7 +38,7 @@
 		// Scroll bar control
 		"scrollbar.shadow": "#282a2e",
 		"scrollbarSlider.activeBackground": "#b4b7b46f",
-		"scrollbarSlider.background": "#373b416f",
+		"scrollbarSlider.background": "#373b41bb",
 		"scrollbarSlider.hoverBackground": "#dcac946f",
 		
 		// Badge
@@ -201,11 +201,11 @@
 		
 		// Status bar colors
 		"statusBar.background": "#191B1D",
-		// "statusBar.border": "#f00",
-		"statusBar.debuggingBackground": "#ffff00",
-		"statusBar.debuggingForeground": "#a3a8ae",
-		// "statusBar.debuggingBorder": "",
 		"statusBar.foreground": "#a3a8ae",
+		// "statusBar.border": "#f00",
+		"statusBar.debuggingBackground": "#eaea04",
+		"statusBar.debuggingForeground": "#0404ea",
+		// "statusBar.debuggingBorder": "",
 		"statusBar.noFolderBackground": "#191B1D",
 		"statusBar.noFolderForeground": "#a3a8ae",
 		// "statusBar.noFolderBorder": "",
