@@ -52,6 +52,10 @@ Zokugun Theme for Visual Studio Code
 
 ![Sass](https://github.com/zokugun/theme-zokugun-vscode/blob/master/screenshots/sass.png?raw=true)
 
+### Terminal
+
+![Sass](https://github.com/zokugun/theme-zokugun-vscode/blob/master/screenshots/terminal.png?raw=true)
+
 
 
 Don't hesitate to [create an issue](https://github.com/zokugun/theme-zokugun-vscode/issues) if you want another language :)
