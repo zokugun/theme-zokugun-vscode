@@ -9,6 +9,7 @@ Zokugun Theme for Visual Studio Code
 - HTML
 - JavaScript
 - JSON
+- Kaoscript
 - Makefile
 - Markdown
 - nginx
