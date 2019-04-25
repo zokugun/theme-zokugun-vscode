@@ -6,4 +6,5 @@
 !package.json
 !LICENSE
 !README.md
+!out/*
 !themes/zokugun.json

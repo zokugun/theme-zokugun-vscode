@@ -23,6 +23,9 @@
 	"categories": [
 		"Themes"
 	],
+	"activationEvents": [
+		"*"
+	],
 	"contributes": {
 		"themes": [
 			{
@@ -31,6 +34,18 @@
 				"path": "./themes/zokugun.json"
 			}
 		]
+	},
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/node": "^10.5.2",
+		"typescript": "^2.9.2",
+		"vscode": "^1.1.18"
 	},
 	"keywords": [
 		"theme",

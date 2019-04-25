@@ -1,5 +1,11 @@
 {
 	"files.associations": {
 		"zokugun.json": "jsonc"
+	},
+	"files.exclude": {
+		"out": true
+	},
+	"search.exclude": {
+		"out": true
 	}
 }

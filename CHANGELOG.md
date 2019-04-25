@@ -4,6 +4,7 @@
 
 - Improve terminal colors
 - Add kaoscript support
+- Display a "What's New" message when the extension is updated
 
 ## v0.2.7 | 2018-09-05
 
