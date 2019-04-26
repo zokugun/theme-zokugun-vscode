@@ -1082,6 +1082,24 @@
 				"foreground": "#efc7cd"
 			}
 		},
+		{
+			"scope": [
+				"meta.embedded.block.frontmatter entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#ccccff"
+			}
+		},
+		// }}}
+		// {{{ MDX
+		{
+			"scope": [
+				"text.html.markdown.jsx punctuation.definition.block"
+			],
+			"settings": {
+				"foreground": "#00ffff"
+			}
+		},
 		// }}}
 		// {{{ nginx
 		{

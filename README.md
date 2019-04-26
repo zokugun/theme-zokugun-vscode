@@ -14,6 +14,7 @@ Zokugun Theme for Visual Studio Code
 - Kaoscript
 - Makefile
 - Markdown
+- MDX
 - nginx
 - PHP
 - Pug

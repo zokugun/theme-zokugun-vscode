@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.1 | 2019-04-27
+
+- Add MDX support
+
 ## v0.3.0 | 2019-04-25
 
 - Improve terminal colors
