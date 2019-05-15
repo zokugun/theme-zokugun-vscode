@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.2 | 2019-05-15
+
+- Improve Python support
+
 ## v0.3.1 | 2019-04-27
 
 - Add MDX support
