@@ -509,7 +509,8 @@
 		},
 		{
 			"scope": [
-				"support.function"
+				"support.function",
+				"meta.function-call.generic"
 			],
 			"settings": {
 				"foreground": "#00ccff"
