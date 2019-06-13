@@ -894,12 +894,13 @@
 			}
 		},
 		// }}}
-		// {{{ Kaoscript
+		// {{{ kaoscript
 		{
 			"scope": [
 				"keyword.operator.new.ks",
 				"source.ks keyword.operator.loop",
 				"source.ks keyword.operator.conditional",
+				"keyword.operator.type-casting.ks",
 				"keyword.operator.type-checking.ks"
 			],
 			"settings": {
@@ -926,7 +927,8 @@
 		},
 		{
 			"scope": [
-				"storage.type.constructor.ks"
+				"storage.type.constructor.ks",
+				"storage.type.destructor.ks"
 			],
 			"settings": {
 				"foreground": "#00cc99"
@@ -952,20 +954,13 @@
 		},
 		{
 			"scope": [
-				"punctuation.attribute.ks",
+				"punctuation.attribute.inner.ks",
+				"punctuation.attribute.outer.ks",
 				"punctuation.definition.attribute.begin.bracket.square.ks",
 				"punctuation.definition.attribute.end.bracket.square.ks"
 			],
 			"settings": {
-				"foreground": "#00ffff"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.attribute.block.ks"
-			],
-			"settings": {
-				"foreground": "#b089ff"
+				"foreground": "#197d9c"
 			}
 		},
 		{
@@ -973,7 +968,7 @@
 				"meta.attribute.ks entity.name.ks"
 			],
 			"settings": {
-				"foreground": "#99ff99"
+				"foreground": "#dadada"
 			}
 		},
 		{
