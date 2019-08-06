@@ -173,8 +173,8 @@
 		// Status bar colors
 		"statusBar.background": "#191B1D",
 		"statusBar.foreground": "#a3a8ae",
-		"statusBar.debuggingBackground": "#eaea04",
-		"statusBar.debuggingForeground": "#0404ea",
+		"statusBar.debuggingBackground": "#ea7704",
+		"statusBar.debuggingForeground": "#000000",
 		"statusBar.noFolderBackground": "#191B1D",
 		"statusBar.noFolderForeground": "#a3a8ae",
 		"statusBarItem.activeBackground": "#000000",
@@ -898,31 +898,26 @@
 		{
 			"scope": [
 				"keyword.operator.new.ks",
+				"keyword.operator.type-casting.ks",
 				"source.ks keyword.operator.loop",
 				"source.ks keyword.operator.conditional",
-				"keyword.operator.type-casting.ks",
-				"keyword.operator.type-checking.ks"
-			],
-			"settings": {
-				"foreground": "#ffff00"
-			}
-		},
-		{
-			"scope": [
-				"storage.modifier.at.ks",
-				"storage.modifier.instance.ks",
-				"storage.modifier.nullable.ks"
-			],
-			"settings": {
-				"foreground": "#00ffff"
-			}
-		},
-		{
-			"scope": [
+				"keyword.operator.type-checking.ks",
 				"storage.modifier.macro.ks"
 			],
 			"settings": {
 				"foreground": "#ffff00"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.type-casting.sign.ks",
+				"storage.modifier.at.ks",
+				"storage.modifier.instance.ks",
+				"storage.modifier.nullable.ks",
+				"storage.modifier.required.ks"
+			],
+			"settings": {
+				"foreground": "#00ffff"
 			}
 		},
 		{
@@ -973,7 +968,8 @@
 		},
 		{
 			"scope": [
-				"meta.attribute.ks entity.name.function.ks"
+				"meta.attribute.ks entity.name.function.ks",
+				"entity.name.type.macro.ks"
 			],
 			"settings": {
 				"foreground": "#00ccff"
