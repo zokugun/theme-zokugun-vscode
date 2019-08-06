@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.3 | 2019-08-06
+
+- Debugging bar becomes orange instead of a bright yellow
+- Improve kaoscript support
+
 ## v0.3.2 | 2019-05-15
 
 - Improve Python support
