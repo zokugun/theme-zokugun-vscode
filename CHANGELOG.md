@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.4.0 | 2021-07-14
+
+- Rename `Zokugun` theme to `Zokugun Obsidium`
+- Add workflow to publish the extension
+
 ## v0.3.3 | 2019-08-06
 
 - Debugging bar becomes orange instead of a bright yellow
