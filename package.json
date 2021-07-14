@@ -1,7 +1,7 @@
 {
 	"name": "zokugun-theme",
-	"displayName": "Zokugun Theme",
-	"description": "Zokugun Theme for Visual Studio Code",
+	"displayName": "Zokugun Themes",
+	"description": "Zokugun Themes for Visual Studio Code",
 	"version": "0.3.3",
 	"publisher": "zokugun",
 	"homepage": "https://github.com/zokugun/theme-zokugun-vscode",
@@ -29,9 +29,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Zokugun",
+				"label": "Zokugun Obsidian",
 				"uiTheme": "vs-dark",
-				"path": "./themes/zokugun.json"
+				"path": "./themes/obsidian.json"
 			}
 		]
 	},
