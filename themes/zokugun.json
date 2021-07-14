@@ -531,7 +531,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#99ff99",
+				"foreground": "#99ff99"
 			}
 		},
 		{
@@ -898,10 +898,12 @@
 		{
 			"scope": [
 				"keyword.operator.new.ks",
-				"keyword.operator.type-casting.ks",
+				"keyword.operator.type-casting.manual.default.long.ks",
+				"keyword.operator.type-casting.manual.forced.long.ks",
+				"keyword.operator.type-casting.manual.nullable.long.ks",
+				"keyword.operator.type-checking.ks",
 				"source.ks keyword.operator.loop",
 				"source.ks keyword.operator.conditional",
-				"keyword.operator.type-checking.ks",
 				"storage.modifier.macro.ks"
 			],
 			"settings": {
@@ -910,11 +912,17 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.type-casting.sign.ks",
+				"constant.language.export-all.ks",
+				"keyword.operator.type-casting.forced.ks",
+				"keyword.operator.type-casting.manual.default.abbr.ks",
+				"keyword.operator.type-casting.manual.forced.abbr.ks",
+				"keyword.operator.type-casting.manual.nullable.abbr.ks",
+				"keyword.operator.type-casting.nullable.ks",
 				"storage.modifier.at.ks",
 				"storage.modifier.instance.ks",
 				"storage.modifier.nullable.ks",
-				"storage.modifier.required.ks"
+				"storage.modifier.required.ks",
+				"storage.modifier.throwables.ks"
 			],
 			"settings": {
 				"foreground": "#00ffff"
@@ -968,11 +976,20 @@
 		},
 		{
 			"scope": [
-				"meta.attribute.ks entity.name.function.ks",
-				"entity.name.type.macro.ks"
+				"entity.name.type.macro.ks",
+				"meta.attribute.ks entity.name.function.ks"
 			],
 			"settings": {
 				"foreground": "#00ccff"
+			}
+		},
+		{
+			"scope": [
+				"meta.argument.key",
+				"variable.other.enummember.ks"
+			],
+			"settings": {
+				"foreground": "#ccccff"
 			}
 		},
 		// }}}
