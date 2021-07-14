@@ -29,9 +29,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Zokugun Obsidian",
+				"label": "Zokugun Obsidium",
 				"uiTheme": "vs-dark",
-				"path": "./themes/obsidian.json"
+				"path": "./themes/obsidium.json"
 			}
 		]
 	},

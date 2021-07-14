@@ -1,4 +1,4 @@
-Zokugun Theme for Visual Studio Code
+Zokugun Themes for Visual Studio Code
 ====================================
 
 ![Screenshot](https://github.com/zokugun/theme-zokugun-vscode/blob/master/screenshots/screenshot.png?raw=true)
