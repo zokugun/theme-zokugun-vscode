@@ -2,7 +2,7 @@
 	"name": "zokugun-theme",
 	"displayName": "Zokugun Themes",
 	"description": "Zokugun Themes for Visual Studio Code",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"publisher": "zokugun",
 	"homepage": "https://github.com/zokugun/theme-zokugun-vscode",
 	"repository": {

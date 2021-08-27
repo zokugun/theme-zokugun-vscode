@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.4.1 | 2021-08-27
+- fix input's background
+- fix activation events
+- add capabilities
+
 ## v0.4.0 | 2021-07-14
 
 - Rename `Zokugun` theme to `Zokugun Obsidium`
