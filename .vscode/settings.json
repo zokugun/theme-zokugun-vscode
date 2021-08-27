@@ -1,6 +1,6 @@
 {
 	"files.associations": {
-		"zokugun.json": "jsonc"
+		"obsidium.json": "jsonc"
 	},
 	"files.exclude": {
 		"out": true
