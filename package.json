@@ -43,12 +43,14 @@
 	},
 	"main": "./out/extension",
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
+		"release": "release-it",
+		"vscode:prepublish": "npm run compile",
 		"watch": "tsc -watch -p ./"
 	},
 	"devDependencies": {
 		"@types/node": "^10.5.2",
+		"release-it": "^14.11.3",
 		"typescript": "^2.9.2",
 		"vscode": "^1.1.18"
 	},
