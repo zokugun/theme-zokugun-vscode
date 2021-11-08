@@ -25,7 +25,7 @@
 	"scripts": {
 		"bundle": "webpack",
 		"commit": "cz",
-		"compile": "tsc -p ./ src",
+		"compile": "tsc -p src",
 		"lint": "xo",
 		"prepare": "husky install; fixpack || true",
 		"release": "release-it",
