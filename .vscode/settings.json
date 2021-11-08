@@ -2,10 +2,11 @@
 	"files.associations": {
 		"obsidium.json": "jsonc"
 	},
-	"files.exclude": {
-		"out": true
-	},
 	"search.exclude": {
-		"out": true
-	}
+		"lib/**": true,
+		"out/**": true,
+	},
+	"taskExplorer.exclude": [
+		".husky",
+	],
 }
