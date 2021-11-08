@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.5.0 | 2021-10-08
+- it's a web extension
+
 ## v0.4.1 | 2021-08-27
 - fix input's background
 - fix activation events
