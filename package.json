@@ -2,7 +2,7 @@
 	"name": "zokugun-theme",
 	"displayName": "Zokugun Themes",
 	"description": "Zokugun Themes for Visual Studio Code",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"author": {
 		"name": "Baptiste Augrain",
 		"email": "daiyam@zokugun.org"

@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.6.0 | 2022-05-16
+- add bracket colors
+- flag the globally stored version as syncable
+
 ## v0.5.0 | 2021-10-08
 - it's a web extension
 
@@ -10,66 +14,66 @@
 
 ## v0.4.0 | 2021-07-14
 
-- Rename `Zokugun` theme to `Zokugun Obsidium`
-- Add workflow to publish the extension
+- rename `Zokugun` theme to `Zokugun Obsidium`
+- add workflow to publish the extension
 
 ## v0.3.3 | 2019-08-06
 
-- Debugging bar becomes orange instead of a bright yellow
-- Improve kaoscript support
+- debugging bar becomes orange instead of a bright yellow
+- improve kaoscript support
 
 ## v0.3.2 | 2019-05-15
 
-- Improve Python support
+- improve Python support
 
 ## v0.3.1 | 2019-04-27
 
-- Add MDX support
+- add MDX support
 
 ## v0.3.0 | 2019-04-25
 
-- Improve terminal colors
-- Add kaoscript support
-- Display a "What's New" message when the extension is updated
+- improve terminal colors
+- add kaoscript support
+- display a "What's New" message when the extension is updated
 
 ## v0.2.7 | 2018-09-05
 
-- Fixing scrollbar & debugging statusbar
+- fixing scrollbar & debugging statusbar
 
 ## v0.2.6 | 2018-07-10
 
-- Add Go support
-- Add Python support
+- add Go support
+- add Python support
 
 ## v0.2.5 | 2018-07-10
 
-- Add launch config for debugging
-- Add TypeScript support
-- Add YAML support
+- add launch config for debugging
+- add TypeScript support
+- add YAML support
 
 ## v0.2.4 | 2018-07-08
 
-- Add Bash support
-- Add Makefile support
+- add Bash support
+- add Makefile support
 
 ## v0.2.3 | 2018-06-24
 
-- Support comments in Pug
+- support comments in Pug
 
 ## v0.2.2 | 2018-06-20
 
-- Better Pug support
-- Add nginx support
+- better Pug support
+- add nginx support
 
 ## v0.2.1 | 2018-06-18
 
-- Add Pug support
+- add Pug support
 
 ## v0.2.0 | 2018-06-18
 
-- Add Markdown support
-- Edit error color in list
+- add Markdown support
+- edit error color in list
 
 ## v0.1.0 | 2018-06-18
 
-- Initial release
+- initial release
