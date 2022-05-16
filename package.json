@@ -34,14 +34,14 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@commitlint/cli": "^13.1.0",
-		"@commitlint/config-conventional": "^13.1.0",
-		"@types/node": "^14.17.16",
+		"@commitlint/cli": "^16.2.3",
+		"@commitlint/config-conventional": "^16.2.1",
+		"@types/node": "^14.18.12",
 		"@types/vscode": "^1.23.0",
 		"commitizen": "^4.2.4",
 		"fixpack": "^4.0.0",
 		"husky": "^7.0.1",
-		"lint-staged": "^11.1.1",
+		"lint-staged": "^12.3.6",
 		"path-browserify": "^1.0.1",
 		"process": "^0.11.10",
 		"release-it": "^14.11.3",
@@ -50,7 +50,7 @@
 		"vscode": "^1.1.18",
 		"webpack": "^5.38.1",
 		"webpack-cli": "^4.7.0",
-		"xo": "^0.43.0"
+		"xo": "^0.48.0"
 	},
 	"activationEvents": [
 		"onStartupFinished"
