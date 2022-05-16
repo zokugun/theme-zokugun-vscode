@@ -97,7 +97,6 @@
 		"editor.hoverHighlightBackground": "#373b41",
 		"editor.lineHighlightBackground": "#282a2e",
 		"editor.rangeHighlightBackground": "#282a2e",
-		"editorBracketMatch.background": "#373b41",
 		"editorCodeLens.foreground": "#373b41",
 		"editorCursor.foreground": "#eeee00",
 		"editorIndentGuide.background": "#1c1e20",
@@ -105,6 +104,13 @@
 		"editorLink.activeForeground": "#00ccff",
 		"editorRuler.foreground": "#dcac94",
 		"editorWhitespace.foreground": "#dcac94",
+
+		// Editor Bracket colors
+		"editorBracketHighlight.foreground1": "#ffffff",
+		"editorBracketHighlight.foreground2": "#ff8eba",
+		"editorBracketHighlight.foreground3": "#b089ff",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#e64b17",
+		"editorBracketMatch.background": "#373b41",
 
 		// Overview ruler
 		"editorOverviewRuler.findMatchForeground": "#f0c674",
