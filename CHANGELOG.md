@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.6.1 | 2022-07-24
+- can run remotely
+
 ## v0.6.0 | 2022-05-16
 - add bracket colors
 - flag the globally stored version as syncable
