@@ -294,6 +294,15 @@
 		},
 		{
 			"scope": [
+				"meta.folding",
+				"meta.folding punctuation.definition.folding"
+			],
+			"settings": {
+				"foreground": "#b4b7b4"
+			}
+		},
+		{
+			"scope": [
 				"storage.type"
 			],
 			"settings": {
