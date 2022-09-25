@@ -5,6 +5,7 @@
 		// Base colors
 		"focusBorder": "#009999",
 		"foreground": "#ffffff",
+		"descriptionForeground": "#ffffff",
 		"errorForeground": "#99ff99",
 		"selection.background": "#a3a8ae",
 		"widget.shadow": "#000000",
@@ -242,7 +243,6 @@
 		"gitDecoration.conflictingResourceForeground": "#f0c674",
 
 		// Unknown
-		"descriptionForeground": "#99ff99",
 		"textBlockQuote.background": "#282a2e",
 		"textBlockQuote.border": "#191B1D",
 		"textCodeBlock.background": "#000000",
