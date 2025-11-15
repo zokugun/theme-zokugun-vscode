@@ -27,6 +27,7 @@
 		"commit": "cz",
 		"compile": "tsc -p src",
 		"lint": "xo",
+		"package": "rm -f *.vsix && vsce package",
 		"prepare": "husky install; fixpack || true",
 		"release": "release-it",
 		"vscode:prepublish": "npm run compile && npm run bundle",
@@ -36,7 +37,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^17.0.3",
 		"@commitlint/config-conventional": "^17.0.3",
-		"@types/node": "^16.11.45",
+		"@types/node": "^20.14.8",
 		"@types/vscode": "^1.23.0",
 		"commitizen": "^4.2.5",
 		"fixpack": "^4.0.0",
@@ -44,12 +45,12 @@
 		"lint-staged": "^13.0.3",
 		"path-browserify": "^1.0.1",
 		"process": "^0.11.10",
-		"release-it": "^15.3.0",
-		"tsc-watch": "^5.0.3",
-		"typescript": "^4.2.4",
+		"release-it": "^18.1.2",
+		"tsc-watch": "^6.3.0",
+		"typescript": "^5.7.3",
 		"webpack": "^5.38.1",
 		"webpack-cli": "^4.7.0",
-		"xo": "^0.48.0"
+		"xo": "0.60.0"
 	},
 	"activationEvents": [
 		"onStartupFinished"
